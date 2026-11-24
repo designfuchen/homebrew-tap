@@ -1,6 +1,6 @@
 cask "claudedock" do
-  version "0.2.0"
-  sha256 "43d99260dc08ec23dbed5795cdba79ce95b07057832535bfd257bae596bbe82f"
+  version "0.2.1"
+  sha256 "94c01d41ae0ca98b2739a4c6a9119a41cca12e3962cadaddc348abefc3384c2b"
 
   url "https://github.com/designfuchen/ClaudeDock/releases/download/v#{version}/ClaudeDock-#{version}-universal.dmg"
   name "ClaudeDock"
