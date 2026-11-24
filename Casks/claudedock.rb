@@ -12,14 +12,12 @@ cask "claudedock" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ClaudeDock.app"
   binary "#{appdir}/ClaudeDock.app/Contents/MacOS/claudedock"
 
   uninstall quit: "io.claudedock.app"
 
-  zap trash: [
-    "~/.claudedock",
-  ]
+  zap trash: "~/.claudedock"
 end
